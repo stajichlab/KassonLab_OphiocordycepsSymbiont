@@ -1,5 +1,5 @@
 #!/bin/bash -l
-#SBATCH --nodes 1 --ntasks 8 --mem 16G -p short --out logs/busco.%a.log -J busco -a 1-2
+#SBATCH --nodes 1 --ntasks 8 --mem 16G -p batch --out logs/busco.%a.log -J busco -a 1-2
 
 # for augustus training
 # set to a local dir to avoid permission issues and pollution in global
